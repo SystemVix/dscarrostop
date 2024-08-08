@@ -1,0 +1,14 @@
+header
+{
+   align-items: center;
+   background-color: var(--vs-cor-fundo-azul);
+   display: flex;
+   height: 70px;
+   justify-content: center;
+}
+
+header h1
+{
+   color: var(--vs-cor-fonte-branca);
+   font-size: 20px;
+}

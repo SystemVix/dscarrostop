@@ -1,0 +1,23 @@
+footer
+{
+   background-color: var(--vs-cor-fundo-azul);
+   color: var(--vs-cor-fonte-branca);
+   display: flex;
+   flex-direction: column;
+   font-size: 16px;
+   height: 120px;
+   justify-content: center;
+}
+
+.vs-central a
+{
+   display: flex;   
+   justify-content: center;   
+}
+
+.vs-central p
+{
+   display: flex;
+   font-style: italic;      
+   justify-content: center;
+}
