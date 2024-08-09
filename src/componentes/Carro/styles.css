@@ -1,0 +1,36 @@
+.vs-carro
+{
+   align-items: center;
+   border: 1px solid var(--vs-cor-borda-azul);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   max-width: 280px;   
+}
+
+.vs-carro img
+{
+   margin: 10px 30px 0 30px;
+   max-width: 260px;
+   width: 100%;
+}
+
+.vs-carro h3
+{
+   color: var(--vs-cor-fonte-cinza);
+   font-size: 16px;
+   margin: 5px 0;
+}
+
+@media (min-width: 576px)
+{
+   .vs-carro
+   {
+      max-width: 746px;
+   }
+
+   .vs-carro img
+   {
+      max-width: 391px;
+   }
+}

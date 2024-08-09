@@ -1,0 +1,55 @@
+.vs-card-carro
+{
+   margin: 0 20px 30px 20px;
+}
+
+.vs-card-comentario
+{
+   align-items: center;
+   border-radius: 10px;
+   color: var(--vs-cor-fonte-azul);
+   display: flex;
+   justify-content: center;
+   margin: 0 20px;
+   margin-bottom: 25px;
+   width: 100%;
+}
+
+.vs-secao-carro h2
+{
+   align-items: center;
+   color: var(--vs-cor-fonte-cinza);
+   display: flex;
+   font-size: 20px;
+   justify-content: center;
+   padding: 25px 0;
+}
+
+.vs-secao-comentario
+{
+   align-items: center;
+   border: 1px solid var(--vs-cor-borda-cinza);
+   background-color: var(--vs-cor-fundo-cinza);   
+   display: flex;
+   flex-direction: column;
+   justify-content: center;     
+}
+
+.vs-secao-comentario h2
+{
+   align-items: center;
+   color: var(--vs-cor-fonte-cinza);
+   display: flex;
+   font-size: 20px;
+   justify-content: center;
+   padding: 25px 0;
+}
+
+@media (min-width: 576px)
+{
+   .vs-card-comentario
+   {
+      
+   }
+
+}

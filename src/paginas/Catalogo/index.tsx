@@ -13,17 +13,33 @@ export default function Catalogo()
          </header>
          <main>
             <section className="vs-secao-carro">
-               <Carro/>
-               <Carro/>
+               <h2>Venha nos visitar</h2>
+               <div className="vs-card-carro">
+                  <Carro/>
+               </div>
+               <div className="vs-card-carro">
+                  <Carro/>
+               </div>               
             </section>
-            <section className="vs-secao-comentarios">
-               <Comentario/>
-               <Comentario/>
-               <Comentario/>
-               <Comentario/>
-               <Comentario/>
+            <section className="vs-secao-comentario">
+               <h2>O que estão dizendo</h2>
+               <div className="vs-card-comentario">
+                  <Comentario/>
+               </div>
+               <div className="vs-card-comentario">
+                  <Comentario/>
+               </div>
+               <div className="vs-card-comentario">
+                  <Comentario/>
+               </div>
+               <div className="vs-card-comentario">
+                  <Comentario/>
+               </div>
+               <div className="vs-card-comentario">
+                  <Comentario/>
+               </div>               
             </section>
-         </main>
+            </main>
          <footer>
             <Rodape/>
          </footer>               

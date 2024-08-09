@@ -1,0 +1,16 @@
+.vs-comentario
+{
+   align-items: center;
+   background-color: var(--vs-cor-fundo-branco);
+   border: 1px solid var(--vs-cor-borda-azul);
+   border-radius: 10px;
+   display: flex;
+   flex-direction: column;
+   max-width: 280px;
+}
+
+.vs-comentario p
+{
+   padding: 20px;
+}
+

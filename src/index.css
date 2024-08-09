@@ -3,6 +3,7 @@
 :root
 {
    --vs-cor-borda-azul: #3C9AF0;
+   --vs-cor-borda-cinza: #C8C8C8; 
    
    --vs-cor-fonte-azul: #3C9AF0;
    --vs-cor-fonte-branca: #FFFFFF;
@@ -32,11 +33,33 @@ html, body
    background-color: var(--vs-cor-fundo-branco);
 }
 
-.vs-conteiner
+.vs-conteiner-carro
 {
    margin: 0 auto;
-   max-width: 960px;
+   padding: 0;
+   max-width: 280px;
    width: 100%;
+}
+
+.vs-conteiner-comentario
+{
+   margin: 0 20px;
+   padding: 0;
+   max-width: 280px;
+   width: 100%;
+}
+
+@media (min-width: 576px)
+{
+   .vs-conteiner-carro
+   {
+      max-width: 746px;      
+   }
+
+.vs-conteiner-comentario
+   {
+      max-width: 960px;      
+   }
 }
 
 
